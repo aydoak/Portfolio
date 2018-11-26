@@ -26,9 +26,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Portfolio
         <NavBar />
-        <Home test=" PropsWork!"/>
+        <Home test="________"/>
         <Bio />
         <Skills />
         <Projects projects = {this.state.projects}/>

@@ -6,6 +6,9 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <h2>Projects</h2>
+        <a href='https://syndeseed.herokuapp.com/'>SyndeSeed</a>
+        <br />
+        <a href='https://dirty-beaches.herokuapp.com/'>Dirty Beaches</a>
       </div>
     );
   }

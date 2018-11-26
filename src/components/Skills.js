@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
+import skills from '../CSS/skills.css';
 
 class Skills extends Component {
   render() {
     return (
       <div id="Skills">
-        <h2>Skills</h2>
+        <span class='skills-center'>
+          <h2>Skills</h2>
+          <p>ReactJS</p>
+          <p>JavaScript</p>
+          <p>Ruby</p>
+          <p>Ruby on Rails</p>
+          <p>JQuery</p>
+          <p>HTML</p>
+          <p>CSS</p>
+        </span>
       </div>
     );
   }
