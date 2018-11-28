@@ -7,8 +7,9 @@ class Bio extends Component {
     return (
       <div id="Bio">
         <h2>Bio</h2>
-        <p>"I'm a web developer, originally from Ohio, now living in Miami, FL."</p>
         <img src={img} alt="bio pic" className="bio-pic"/>
+        <p>"I'm a web developer, originally from Ohio, now living in Miami, FL."</p>
+        <p>________</p>
       </div>
     );
   }

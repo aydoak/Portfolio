@@ -1,3 +1,31 @@
+body{
+  background-color: #02a5b4;
+  background-image: linear-gradient(to top right, #d30089, #02a5b4);
+  color: #beebef;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h1, h2{
+  font-weight: 200;
+  color: #beebef;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+p, a{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #beebef;
+}
+
 .App {
   text-align: center;
 }
@@ -30,3 +58,52 @@
     transform: rotate(360deg);
   }
 }
+
+{/*button animation*/}
+.edit-main-button{
+    border-width: 0;
+    background-color: #02a5b4;
+    /* background-image: linear-gradient(to top right, #02a5b4 0%, #ffdd00 100%); */
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #016871;
+    display: block;
+    height: 2rem;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    /* padding: 1px; */
+    position: relative;
+    text-decoration: none;
+    width: 50%;
+    z-index: 2;
+}
+
+.edit-main-button:hover {
+    color: #beebef;
+    text-decoration: none;
+}
+
+.edit-main-button:active {
+    color: #beebef;
+    text-decoration: none;
+}
+
+.edit-main-button #fademain {
+    align-items: center;
+    background: #ffdd00;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+}
+
+.edit-main-button:hover #fademain {
+    background: transparent;
+}
+
+.edit-main-button:active #fademain {
+    background: transparent;
+}
+{/*button animation*/}

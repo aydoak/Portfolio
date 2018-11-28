@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
+        {/*<NavBar />*/}
         <Home test="________"/>
         <Bio />
         <Skills />

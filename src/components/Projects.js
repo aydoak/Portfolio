@@ -6,9 +6,33 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <h2>Projects</h2>
-        <a href='https://syndeseed.herokuapp.com/'>SyndeSeed</a>
+
+        <a
+          className='edit-main-button'
+          href='https://syndeseed.herokuapp.com/'
+        >
+          <span id="fademain">SyndeSeed</span>
+        </a>
+
         <br />
-        <a href='https://dirty-beaches.herokuapp.com/'>Dirty Beaches</a>
+
+        <a
+          className='edit-main-button'
+          href='https://dirty-beaches.herokuapp.com/'
+        >
+          <span id="fademain">Dirty Beaches</span>
+        </a>
+
+        <br />
+
+        <a
+          className='edit-main-button'
+          href='https://github.com/aydoak/Battleship.git'
+        >
+          <span id="fademain">Battleship</span>
+        </a>
+
+        <p>________</p>
       </div>
     );
   }

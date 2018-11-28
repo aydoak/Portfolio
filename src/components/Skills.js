@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
       <div id="Skills">
-        <span class='skills-center'>
+        <span className='skills-center'>
           <h2>Skills</h2>
           <p>ReactJS</p>
           <p>JavaScript</p>
@@ -14,6 +14,7 @@ class Skills extends Component {
           <p>JQuery</p>
           <p>HTML</p>
           <p>CSS</p>
+          <p>________</p>
         </span>
       </div>
     );

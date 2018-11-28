@@ -5,9 +5,19 @@ class FindMe extends Component {
     return (
       <div className="FindMe">
         <h2>Find Me</h2>
-        <a href='https://www.linkedin.com/in/adam-doak-3a7578106'>LinkedIn</a>
+        <a
+        className='edit-main-button'
+        href='https://www.linkedin.com/in/adam-doak-3a7578106'
+        >
+          <span id="fademain">LinkedIn</span>
+        </a>
         <br />
-        <a href='https://github.com/aydoak'>GitHub</a>
+        <a
+        className='edit-main-button'
+        href='https://github.com/aydoak'
+        >
+          <span id="fademain">GitHub</span>
+        </a>
       </div>
     );
   }
