@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         {/*<NavBar />*/}
-        <Home test="________"/>
+        <Home test=""/>
         <Bio />
         <Skills />
         <Projects projects = {this.state.projects}/>

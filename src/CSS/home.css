@@ -1,0 +1,20 @@
+.logo{
+  height: 25vh;
+  margin-top: 30vh;
+}
+
+.name{
+  font-weight: 200;
+  font-size: 4vh;
+  margin-bottom: 20vh;
+}
+
+#home{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeline{
+  padding-top: 30vh;
+}
