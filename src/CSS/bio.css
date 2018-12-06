@@ -1,3 +1,15 @@
 .bio-pic{
   width: 100%;
 }
+
+@media only screen and (min-width: 600px) {
+  .bio-pic{
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bio-pic{
+    width: 50%;
+  }
+}

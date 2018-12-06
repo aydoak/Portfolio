@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../CSS/find_me.css';
 
 class FindMe extends Component {
   render() {
